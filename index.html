@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Eduardo Cordero</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Eduardo Cordero</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                </div>
+            </header>
+            <div class="presentacion" >
+                <!-- <p class="bienvenida">Bienvenidos</p>-->
+                <h2>Eduardo Cordero</h2>
+                <h1> Periodista</h1>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <!-- <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>-->
+        <div class="sobremi" align="center">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Eduardo Cordero</span> </h2>
+            <img src="img/foto.jpg" alt="">
+            <h3>Periodista</h3>
+            <p>Historiador y Periodista egresado de la Universidad Nacional Autónoma de México. 
+                Coordinador editorial del Escenario Tlaxcala y colaborador en Global Sisters Report español. 
+                Ganador del tercer lugar en el Concurso Nacional de Periodismo de Investigación INAI 2023 en la categoría de reportaje universitario por el reportaje “Los Ailes: vivir entre la basura de la Ciudad de México”.</p>            
+            <a href="https://drive.google.com/file/d/15icWO-doVMe-PpSpss5u9iO8oxGe5c71/view?usp=sharing">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <!--<span class="icono"> <i class="fa-solid fa-code"></i></span>-->
+                <h4>Periodismo de Investigación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <!--<li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>-->
+                </ul>
+                <p>Investigación periodística. Creación de reportajes y crónicas con rigurosidad y calidad</p>
+            </div>
+            <div class="servicio">
+                <!-- <span class="icono"><i class="fa-solid fa-file-code"></i></span>-->
+                <h4>Edición</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <!-- <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>-->
+                </ul>
+                <p>Edición de textos y corrección de estilo</p>
+            </div>
+            <div class="servicio">
+                <!--<span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>-->
+                <h4>Radio y Podcast</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <!-- <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>-->
+                </ul>
+                <p>Creación de guiones para podcast y edición de audio</p>
+            </div>
+        </div>
+        <!-- <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>-->
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES Y HERRAMIENTAS </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Paquetería de office</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Guión para podcast</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Audacity. Edición de audio.</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Filmora. Edición de video.</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <h4>    </h4>
+        <h4 align="center">Da click en la imagen para leer los reportajes</h4>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt=""></a>
+                <div class="info">
+                    <h4> <font color="white"> </font> <a href="https://corrientealterna.unam.mx/territorios/cuautitlan-izcalli/#:~:text=Al%20ver%20el%20abandono%20del,correr%20entre%20%C3%A1rboles%20y%20vegetaci%C3%B3n">
+                        Cuautitlán Izcalli: vecinos se organizan para salvar el humedal</h4> </a> </font>
+                    <!-- <p>Diseño Web</p>-->
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://corrientealterna.unam.mx/ambiental/los-ailes-vivir-entre-la-basura-de-la-cdmx/">
+                        Los Ailes: vivir entre la basura de la Ciudad de México</h4></a>
+
+                </div>
+            </div>
+            
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://earthjournalism.net/stories/guardians-of-the-reef-the-rescue-of-mexican-caribbean-corals">
+                        Guardianes del arrecife: al rescate de los corales del pacífico mexicano en Earth Journalism Network y Corriente Alterna</h4></a>
+                    
+                </div>
+            </div>
+        
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://corrientealterna.unam.mx/derechos-humanos/discapacidad-visual-y-tecnologia/">
+                        Discapacidad visual y tecnología: cuatro historias (reportaje y podcast)</h4></a>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://corrientealterna.unam.mx/nota/la-virgen-descoronada-santa-isabel-tepetzala-resiste-al-robo-de-arte-sacro/">
+                        La Virgen Descoronada: Tepetzala resiste al robo de arte sacro</h4></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://otraeconomia.com.ar/2023/12/12/la-ruta-sinuosa-oportunidades-y-adversidades-de-la-migracion-a-mexico/" >
+                        Ruta Sinuosa: oportunidades y adversidades de la migración en México en Otra Economía</h4></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://www.globalsistersreport.org/es/noticias/la-vida-consagrada-envejece-con-esperanza-en-m-xico">
+                        La vida consagrada envejece con esperanza en México</h4></a>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://escenariotlx.com/gabriela-conde-veinte-anos-de-letras/">
+                        Gabriela Conde: veinte años de letras</h4></a>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4> <a href="https://corrientealterna.unam.mx/cultura/resonancias-del-caracol-ezln/">
+                        Resonancias del EZLN: Festejar pese al asedio</h4></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto10.jpg" alt="">
+                <div class="info">
+                    <h4> <a href=" https://escenariotlx.com/carnaval-tlaxcalteca-en-estados-unidos-2024/">
+                        Cruzamos con nuestros sueños: Carnaval tlaxcalteca en Estados Unidos 2024</h4></a>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION Contacto-->
+    <section id="contacto">
+        <div class="contacto">
+            <p class="titulo-seccion">Contacto</p>
+            <!-- <h2>Twitter </h2>-->
+            <h2>Correo</h2>
+            <h2>eduardocorderomolina1989@gmail.com</h2>
+        </div>
+    </section>    
+
+
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Eduardo Cordero - 2024</p>
+        <!--<div class="redes">
+            
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>-->
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
